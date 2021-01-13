@@ -1,0 +1,24 @@
+{
+  "name": "extract-rtf-from-mysql",
+  "version": "1.0.0",
+  "description": "A simple app to extract RTF files from a MySQL database.",
+  "main": "src/index.js",
+  "repository": "",
+  "author": "André Martins <fmartins.andre@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.15.4",
+    "yarn": ">=1.22.5"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "mysql2": "^2.1.0",
+    "node-gzip": "^1.1.2",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.1"
+  }
+}
