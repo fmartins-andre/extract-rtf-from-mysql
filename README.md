@@ -4,7 +4,8 @@ An app/microservice to extract MySQL RTF blobs/files and save them to disk.
 
 ## How to install
 
-- `git clone ...`
+- install node 14 or above
+- clone this repo
 - `yarn install`
 
 #### Dependencies
@@ -46,8 +47,8 @@ Just run it with a JSON configuration file, and it's done!
 
 - The `mysql` section is used to configure the access to the source MySQL database;
 - The `appOptions` section is used to pass some parameters to the application:
-- `convertToPdf`: this boolean flag will make the app convert the RTF files to PDF;
-- `deleteRtf`: once the RTF files has been converted to PDF, this boolean flag will make the app delete them.
+  - `convertToPdf`: this boolean flag will make the app convert the RTF files to PDF;
+  - `deleteRtf`: once the RTF files has been converted to PDF, this boolean flag will make the app delete them.
 
 You can pass a configuration file path as argument to the script. If called with no arguments, the script will try to load a file named `config.json` from its same folder.
 
